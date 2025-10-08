@@ -1,10 +1,3 @@
-import cors from "cors";
-app.use(cors({
-  origin: "*", // or ["https://your-vercel-site.vercel.app"]
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true
-}));
-
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
@@ -31,10 +24,11 @@ app.use(express.json());
 
 // Enable CORS
 app.use(cors({
-  origin: ['https://library-portal-chi.vercel.app/', 'http://localhost:8089'],
+  origin: ['https://library-portal-frontend.vercel.app', 'http://localhost:8089'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
+
 
 
 // Logging middleware
