@@ -24,7 +24,10 @@ app.use(express.json());
 
 // Enable CORS
 app.use(cors({
-  origin: ['https://library-portal-git-main-koushikvarakalas-projects.vercel.app/', 'http://localhost:8089'],
+  origin: [
+  'https://library-portal-git-main-koushikvarakalas-projects.vercel.app',
+  'http://localhost:8089'
+],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
