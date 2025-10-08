@@ -1,3 +1,10 @@
+import cors from "cors";
+app.use(cors({
+  origin: "*", // or ["https://your-vercel-site.vercel.app"]
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
+
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
