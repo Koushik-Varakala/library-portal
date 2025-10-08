@@ -1,6 +1,6 @@
 import Book from '../models/Book.js';
 import BorrowRecord from '../models/BorrowRecord.js';
-import Waitlist from '../models/Waitlist.js';
+import Waitlist from '../models/waitlist.js';
 
 // @desc    Get all books with filtering and pagination
 // @route   GET /api/books
