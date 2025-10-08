@@ -1,6 +1,6 @@
 import Student from '../models/Student.js';
 import BorrowRecord from '../models/BorrowRecord.js';
-import Waitlist from '../models/Waitlist.js';
+import Waitlist from '../models/waitlist.js';
 
 // @desc    Create a new student or get existing one
 // @route   POST /api/students
