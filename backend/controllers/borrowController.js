@@ -1,7 +1,7 @@
 import BorrowRecord from '../models/BorrowRecord.js';
 import Book from '../models/Book.js';
 import Student from '../models/Student.js';
-import Waitlist from '../models/Waitlist.js';
+import Waitlist from '../models/waitlist.js';
 
 // @desc    Borrow a book
 // @route   POST /api/borrow
