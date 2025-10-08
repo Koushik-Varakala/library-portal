@@ -1,4 +1,4 @@
-import Waitlist from '../models/Waitlist.js';
+import Waitlist from '../models/waitlist.js';
 import Book from '../models/Book.js';
 import Student from '../models/Student.js';
 import BorrowRecord from '../models/BorrowRecord.js';
