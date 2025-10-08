@@ -24,7 +24,7 @@ app.use(express.json());
 
 // Enable CORS
 app.use(cors({
-  origin: ['https://library-portal-frontend.vercel.app', 'http://localhost:8089'],
+  origin: ['https://library-portal-chi.vercel.app/', 'http://localhost:8089'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
