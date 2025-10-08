@@ -31,9 +31,11 @@ app.use(express.json());
 
 // Enable CORS
 app.use(cors({
-  origin: ['http://localhost:8089', 'http://127.0.0.1:8089'],
+  origin: ['https://your-vercel-project-name.vercel.app', 'http://localhost:8089'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
+
 
 // Logging middleware
 app.use((req, res, next) => {
